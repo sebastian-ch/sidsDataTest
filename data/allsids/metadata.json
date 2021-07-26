@@ -1,0 +1,14 @@
+{
+"name": "allsids",
+"description": "allsids",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "12",
+"center": "-80.200195,23.039292,12",
+"bounds": "-180.000000,-22.349720,180.000000,32.477230",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z12 --no-tile-compression '--output-to-directory=allsids' allSids.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"allSids\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 12, \"fields\": {\"GID_0\": \"String\", \"NAME_0\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"allSids\",\"count\": 50,\"geometry\": \"Polygon\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"GID_0\",\"count\": 50,\"type\": \"string\",\"values\": [\"ABW\",\"AIA\",\"ATG\",\"BHR\",\"BHS\",\"BLZ\",\"BMU\",\"BRB\",\"COK\",\"COM\",\"CPV\",\"CUB\",\"CUW\",\"CYM\",\"DMA\",\"DOM\",\"FJI\",\"FSM\",\"GNB\",\"GRD\",\"GUY\",\"HTI\",\"JAM\",\"KIR\",\"KNA\",\"LCA\",\"MDV\",\"MHL\",\"MSR\",\"MUS\",\"NIU\",\"NRU\",\"PLW\",\"PNG\",\"SGP\",\"SLB\",\"STP\",\"SUR\",\"SXM\",\"SYC\",\"TCA\",\"TKL\",\"TLS\",\"TON\",\"TTO\",\"TUV\",\"VCT\",\"VGB\",\"VUT\",\"WSM\"]},{\"attribute\": \"NAME_0\",\"count\": 50,\"type\": \"string\",\"values\": [\"Anguilla\",\"Antigua and Barbuda\",\"Aruba\",\"Bahamas\",\"Bahrain\",\"Barbados\",\"Belize\",\"Bermuda\",\"British Virgin Islands\",\"Cape Verde\",\"Cayman Islands\",\"Comoros\",\"Cook Islands\",\"Cuba\",\"Curaçao\",\"Dominica\",\"Dominican Republic\",\"Federated States of Micronesia\",\"Fiji\",\"Grenada\",\"Guinea-Bissau\",\"Guyana\",\"Haiti\",\"Jamaica\",\"Kiribati\",\"Maldives\",\"Marshall Islands\",\"Mauritius\",\"Montserrat\",\"Nauru\",\"Niue\",\"Palau\",\"Papua New Guinea\",\"Saint Kitts and Nevis\",\"Saint Lucia\",\"Saint Vincent and the Grenadines\",\"Samoa\",\"Seychelles\",\"Singapore\",\"Sint Maarten\",\"Solomon Islands\",\"Suriname\",\"São Tomé and Príncipe\",\"Timor-Leste\",\"Tokelau\",\"Tonga\",\"Trinidad and Tobago\",\"Turks and Caicos Islands\",\"Tuvalu\",\"Vanuatu\"]}]}]}}"
+}
