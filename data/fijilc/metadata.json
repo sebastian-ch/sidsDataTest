@@ -1,0 +1,14 @@
+{
+"name": "fijilc",
+"description": "fijilc",
+"version": "2",
+"minzoom": "5",
+"maxzoom": "15",
+"center": "179.917603,-16.946470,15",
+"bounds": "-180.000000,-19.215980,180.000000,-12.479290",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z15 -Z5 --no-tile-compression --no-feature-limit --no-tile-size-limit '--output-to-directory=fijilc' fijilc.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"fijilc\", \"description\": \"\", \"minzoom\": 5, \"maxzoom\": 15, \"fields\": {\"CLASS_NAME\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"fijilc\",\"count\": 211740,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"CLASS_NAME\",\"count\": 21,\"type\": \"string\",\"values\": [\"Barren Land\",\"Cassava\",\"Coconut Crops\",\"Coconut Forest\",\"Coconut Plantation\",\"Cultivated Land\",\"Forest\",\"Grazing Land\",\"Mixed Crops\",\"Oil Palm\",\"Open Land / Grassland\",\"Orchards\",\"Other\",\"Rice\",\"Scattered Coconut Plantation\",\"Scattered Forest\",\"Settlement\",\"Shrubs\",\"Sugarcane\",\"Water\",\"Wetland\"]}]}]}}"
+}
