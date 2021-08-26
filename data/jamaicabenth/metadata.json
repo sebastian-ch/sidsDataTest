@@ -1,0 +1,14 @@
+{
+"name": "jamaicabenth",
+"description": "jamaicabenth",
+"version": "2",
+"minzoom": "7",
+"maxzoom": "14",
+"center": "-81.309814,19.362976,14",
+"bounds": "-81.445130,15.801280,-75.694970,19.834850",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -Z7 --no-tile-compression --no-feature-limit --no-tile-size-limit '--output-to-directory=jamaicabenth' jbenthic.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"jbenthic\", \"description\": \"\", \"minzoom\": 7, \"maxzoom\": 14, \"fields\": {\"class\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"jbenthic\",\"count\": 1309233,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"class\",\"count\": 6,\"type\": \"string\",\"values\": [\"Coral/Algae\",\"Microalgal Mats\",\"Rock\",\"Rubble\",\"Sand\",\"Seagrass\"]}]}]}}"
+}
